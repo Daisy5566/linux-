@@ -1,0 +1,8 @@
+下载  https://repo.continuum.io/archive/index.htm (包含所有anaconda版本)
+Anaconda3-5.2.0-Linux-x86_64.sh 通过xshell上传至linux
+bash Anaconda3-5.2.0-Linux-x86_64.sh
+一路enter  yes  yes  no
+将anaconda放进环境中 sudo vim /etc/profile
+进入文件后 修改 PATH=/（自己的路径）/anaconda3/bin:$PATH
+保存退出后激活环境 source /etc/profile
+python 检查出现的版本是不是自己想要的
