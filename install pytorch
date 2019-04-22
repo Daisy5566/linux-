@@ -1,0 +1,5 @@
+检查CUDA版本  cat /usr/local/cuda/version.txt
+先创属于自己的环境 conda create -n deepslide （重要，给自己建一个小窝）
+激活 source deepslide 随后在这个环境里安装各种东西
+去官网找到对应版本语句 conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
+安装完成后 import torch （不是pytorch！！！）
